@@ -1,5 +1,12 @@
 # @livekit/agents-plugin-sarvam
 
+## 1.7.1
+
+### Patch Changes
+
+- Updated dependencies [[`d5ee95f`](https://github.com/livekit/agents-js/commit/d5ee95fec5707c3ff6cb79805d036388597628c9), [`480fd99`](https://github.com/livekit/agents-js/commit/480fd99ad1ec6a839f986b19c437969f894bbd8d), [`ea4d5b0`](https://github.com/livekit/agents-js/commit/ea4d5b0f96dffb869fd26ae80e1fc075c154e19f), [`3790deb`](https://github.com/livekit/agents-js/commit/3790deb75c10754d84649f8e1772129fab2463af), [`7646117`](https://github.com/livekit/agents-js/commit/7646117a61c9ac5fcaabf286203f952dc18483be), [`8c88e3b`](https://github.com/livekit/agents-js/commit/8c88e3b3acb3ab32dc2d7b19073379f726704015), [`0da1e11`](https://github.com/livekit/agents-js/commit/0da1e1165e8afa82f5993a22dbac17efadce6187), [`e53106c`](https://github.com/livekit/agents-js/commit/e53106c2b5ff7cf1fa66854a4c61ff9d464406a3), [`8c88e3b`](https://github.com/livekit/agents-js/commit/8c88e3b3acb3ab32dc2d7b19073379f726704015)]:
+  - @livekit/agents@1.7.1
+
 ## 1.7.0
 
 ### Patch Changes
