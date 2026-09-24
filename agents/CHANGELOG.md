@@ -1,5 +1,28 @@
 # @livekit/agents
 
+## 1.7.1
+
+### Patch Changes
+
+- Preserve adaptive interruption boundaries when agent playout pauses or enters a tool-call thinking gap. - [#2290](https://github.com/livekit/agents-js/pull/2290) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add Grok 4.3 and Grok 4.5 to the supported xAI inference models. - [#2338](https://github.com/livekit/agents-js/pull/2338) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add `callerHangupSpeech` for deterministic text or custom speech handles during warm transfers. - [#2299](https://github.com/livekit/agents-js/pull/2299) ([@chenghao-mou](https://github.com/chenghao-mou))
+  Export `SpeechHandle` and deprecate `callerHangupInstruction`.
+
+- fix(voice): avoid AgentTask handoff deadlock during session close - [#1776](https://github.com/livekit/agents-js/pull/1776) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add `greetingSpeech` for optional answer-time speech during warm transfers. - [#2300](https://github.com/livekit/agents-js/pull/2300) ([@chenghao-mou](https://github.com/chenghao-mou))
+
+- Send deployment environment in worker registration. - [#1677](https://github.com/livekit/agents-js/pull/1677) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Serialize inline AgentTasks launched by parallel tool calls. - [#2313](https://github.com/livekit/agents-js/pull/2313) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
+- Add an optional `abortSignal` to `WarmTransferTask`. Aborting stops waiting for a pending dial or ends an active consultation, and `run()` rejects with the signal reason. - [#2295](https://github.com/livekit/agents-js/pull/2295) ([@chenghao-mou](https://github.com/chenghao-mou))
+
+- Report the worker protocol version on the `/worker` endpoint so LiveKit Cloud recognizes agent deployment support. - [#1677](https://github.com/livekit/agents-js/pull/1677) ([@rosetta-livekit-bot](https://github.com/apps/rosetta-livekit-bot))
+
 ## 1.7.0
 
 ### Minor Changes
